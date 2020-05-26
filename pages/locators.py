@@ -6,6 +6,8 @@ class MainPageLocators():
 
 
 class LoginPageLocators():
+
+    REG_FORM = (By.CSS_SELECTOR, "#register_form")
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
 
 
