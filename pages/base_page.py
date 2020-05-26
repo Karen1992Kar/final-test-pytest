@@ -1,6 +1,7 @@
 import time
 from selenium.common.exceptions import NoSuchElementException
 
+
 class BasePage(object):
 
     def __init__(self, browser, url, timeout=10):
