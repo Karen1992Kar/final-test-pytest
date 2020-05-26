@@ -11,7 +11,6 @@ class BasePage(object):
 
     def open(self):
         self.browser.get(self.url)
-        time.sleep(5)
 
     def is_element_present(self, how, what):
         try:
